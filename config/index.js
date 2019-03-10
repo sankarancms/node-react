@@ -2,10 +2,10 @@ const path = require('path');
 exports.CONF = {
 
     // DB Params
-    DB_HOST: 'localhost',
-    DB_USER: 'CMS',
-    DB_PASS: 'P@ssw0rd',
-    DB_NAME: 'youtube',
+    DB_HOST: 'DB_HOST',
+    DB_USER: 'DB_USER',
+    DB_PASS: 'DB_PASS',
+    DB_NAME: 'DB_NAME',
 
     // App Root
     APPROOT: path.resolve(),
